@@ -22,7 +22,6 @@ public class SelectionManager : MonoBehaviour
     private void Update()
     {
         if (_currentSelection != null) _currentSelectionResponse.OnDeselect(_currentSelection);
-
         _selector.Check(_rayProvider.CreateRay());
         _currentSelection = _selector.GetSelection();
 

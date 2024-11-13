@@ -11,6 +11,6 @@ public class Selectable : MonoBehaviour
 
     private void Update()
     {
-        //lookPercentageLabel.text = LookPercentage.ToString("F3");
+        lookPercentageLabel.text = LookPercentage.ToString("F3");
     }
 }
